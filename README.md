@@ -27,13 +27,29 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+A.)     The .forEach() iterates through every item in an array without stopping, replaces the need to use a 'for' loop, does not return a new array. You would need to create a new array and push to it.
+
+B.)     The .map() can be used when you need to convert data, which returns a brand new array while not manipulating the original.
+
 2. Explain the difference between a callback and a higher order function.
+
+A.)     A higher order function is a function that takes another function in as an argument. A callback is when you input it as an arguement to call as a function.
 
 3. What is closure?
 
+A.)     Closure is a variable that a function may reference that is not defined within the scope of the function. 
+
 4. Describe the four rules of the 'this' keyword.
 
+A.)  This Keywords:   
+    1. Implicit binding: it occurs when dot notation is used to invoke a function. 
+    2. Explicit binding: this only occurs when .call(), .apply(), or .bind()  are used in a function.
+    3. New binding: it is used to create an object from a constructor function. 
+    4. Global Binding: is used in global scope, the 'this' keyword will be a window/console object. 
+
 5. Why do we need super() in an extended class?
+
+A.) In order to bind a child to the parent; super() is used instead of .call() to call the parent constructor function.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -58,22 +74,22 @@ Your finished project must include all of the following requirements
 #### Task A: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task D: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
